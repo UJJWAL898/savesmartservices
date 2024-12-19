@@ -2346,128 +2346,88 @@
 } .u-section-9 {
   min-height: 500px;
 }
-<footer class="footer">
-  <div class="footer-container">
-    <div class="footer-section logo-section">
-      <h3>Your Company Logo</h3>
-    </div>
-    <div class="footer-section">
-      <h3>About Us</h3>
-      <ul>
-        <li>Service Providers</li>
-        <li>Hello</li>
-        <li>Home Services</li>
-      </ul>
-    </div>
-    <div class="footer-section">
-      <h3>Shop</h3>
-      <ul>
-        <li>Blog</li>
-        <li>FAQ</li>
-        <li>Careers</li>
-        <li>Contact</li>
-      </ul>
-    </div>
-    <div class="footer-section">
-      <h3>Contact Us</h3>
-      <p>805 Lake Street #293<br>Oak Park, IL 60301</p>
-      <p>(708) 366-5947<br><a href="mailto:hello@heggerty.org">hello@heggerty.org</a></p>
-      <div class="social-icons">
-        <a href="#"><img src="path/to/facebook-icon.png" alt="Facebook"></a>
-        <a href="#"><img src="path/to/youtube-icon.png" alt="YouTube"></a>
-        <a href="#"><img src="path/to/twitter-icon.png" alt="Twitter"></a>
-        <a href="#"><img src="path/to/instagram-icon.png" alt="Instagram"></a>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>&copy; 2020 Literacy Resources, LLC. All rights reserved.</p>
-    <ul>
-      <li><a href="#">Privacy Policy</a></li>
-      <li><a href="#">Terms of Use</a></li>
-    </ul>
-  </div>
-</footer>
+.footer {
+  background-color: #2c2c2c;
+  color: #ffffff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
 
-<style>
-  .footer {
-    background-color: #2c2c2c;
-    color: #ffffff;
-    padding: 40px 20px;
-    font-family: Arial, sans-serif;
-  }
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+.footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
 
-  .footer-section {
-    flex: 1;
-    margin: 10px;
-    min-width: 200px;
-  }
+.logo-section {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
 
-  .logo-section {
-    text-align: left;
-    font-size: 20px;
-    font-weight: bold;
-  }
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
 
-  .footer-section h3 {
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
 
-  .footer-section ul {
-    list-style: none;
-    padding: 0;
-  }
+.footer-section ul li {
+  margin-bottom: 10px;
+}
 
-  .footer-section ul li {
-    margin-bottom: 10px;
-  }
+.footer-section ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
 
-  .footer-section ul li a {
-    color: #ffffff;
-    text-decoration: none;
-  }
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
 
-  .footer-section ul li a:hover {
-    text-decoration: underline;
-  }
+.social-icons a {
+  margin-right: 10px;
+}
 
-  .social-icons a {
-    margin-right: 10px;
-  }
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
 
-  .social-icons img {
-    width: 24px;
-    height: 24px;
-  }
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+}
 
-  .footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-    border-top: 1px solid #444;
-    padding-top: 20px;
-  }
+.footer-bottom p {
+  margin: 5px 0;
+}
 
-  .footer-bottom ul {
-    list-style: none;
-    padding: 0;
-    display: inline-flex;
-    gap: 15px;
-  }
+.footer-bottom ul {
+  list-style: none;
+  padding: 0;
+  display: inline-flex;
+  gap: 15px;
+}
 
-  .footer-bottom ul li a {
-    color: #ffffff;
-    text-decoration: none;
-  }
+.footer-bottom ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
 
-  .footer-bottom ul li a:hover {
-    text-decoration: underline;
-  }
+.footer-bottom ul li a:hover {
+  text-decoration: underline;
+}
